@@ -10,27 +10,45 @@ The code can be compiled and run in Google Colab. Number of epochs can be modifi
 ### Results:
 The accuracy and confusion matrices of the biased classifier and adversary are compared to the unbiased classifier and adversary:
 
+#### Biased Classifier Results
+
 Accuracy of the Biased model based on the test set of 9768 x_test is: 83 %
 
 Biased Male Subgroup Confusion Matrix
 
 ![image](https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/bd175421-5f13-4404-9201-0955d133eefd)
 
-Biased Adversary correctly predicting Male: 87 %
+Biased Female Subgroup Confusion Matrix
 
-Biased Adversary incorrectly predicting Male: 12 %
+![image](https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/355ffdd5-1abb-45e8-a43d-739c1477644e)
 
-Biased Classifier False Positive income prediction on Male subgroup: 0.0840 
+Biased Adversary correctly predicting Male: 87 % | Biased Adversary correctly predicting Female: 73 %
 
-Biased Classifier False Negative income prediction on Male subgroup: 0.4647 
+Biased Adversary incorrectly predicting Male: 12 % | Biased Adversary incorrectly predicting Female: 26 %
 
-Biased Adversary correctly predicting Female: 73 %
+Biased Classifier False Positive income prediction on Male subgroup: 0.0840 | Biased Classifier False Positive income prediction on Female subgroup: 0.0420 
 
-Biased Adversary incorrectly predicting Female: 26 %
+Biased Classifier False Negative income prediction on Male subgroup: 0.4647 | Biased Classifier False Negative income prediction on Female subgroup: 0.5443 
 
-Biased Classifier False Positive income prediction on Female subgroup: 0.0420 
+#### Debiased Classifer Results
 
-Biased Classifier False Negative income prediction on Female subgroup: 0.5443 
+Accuracy of the Unbiased model based on the test set of 9768 x_test is: 84 %
+
+Debiased Male Subgroup Confusion Matrix
+
+![image](https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/c7df71c1-7615-421f-96a6-36561d4678f3)
+
+Debiased Female Subgroup Confusion Matrix
+
+![image](https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/f9d3d46f-4eb9-4eea-80cb-d2882fde4556)
+
+Debiased Adversary correctly predicting Male: 99 % | Debiased Adversary correctly predicting Female:  0 %
+
+Debiased Adversary incorrectly predicting Male:  0 % | Debiased Adversary incorrectly predicting Female: 99 %
+
+Debiased Classifier False Positive income prediction on Male subgroup: 0.0980 | Debiased Classifier False Positive income prediction on Female subgroup: 0.0743 
+
+Debiased Classifier False Negative income prediction on Male subgroup: 0.3811 | Debiased Classifier False Negative income prediction on Female subgroup: 0.3386
 
 ### References:
 
