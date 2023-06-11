@@ -14,14 +14,6 @@ The accuracy and confusion matrices of the biased classifier and adversary are c
 
 Accuracy of the Biased model based on the test set of 9768 x_test is: 83 %
 
-Biased Male Subgroup Confusion Matrix
-
-![image](https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/bd175421-5f13-4404-9201-0955d133eefd)
-
-Biased Female Subgroup Confusion Matrix
-
-![image](https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/355ffdd5-1abb-45e8-a43d-739c1477644e)
-
 Biased Adversary correctly predicting Male: 87 % | Biased Adversary correctly predicting Female: 73 %
 
 Biased Adversary incorrectly predicting Male: 12 % | Biased Adversary incorrectly predicting Female: 26 %
@@ -33,14 +25,6 @@ Biased Classifier False Negative income prediction on Male subgroup: 0.4647 | Bi
 #### Debiased Classifer Results
 
 Accuracy of the Unbiased model based on the test set of 9768 x_test is: 84 %
-
-Debiased Male Subgroup Confusion Matrix
-
-![image](https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/c7df71c1-7615-421f-96a6-36561d4678f3)
-
-Debiased Female Subgroup Confusion Matrix
-
-![image](https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/f9d3d46f-4eb9-4eea-80cb-d2882fde4556)
 
 Debiased Adversary correctly predicting Male: 99 % | Debiased Adversary correctly predicting Female:  0 %
 
