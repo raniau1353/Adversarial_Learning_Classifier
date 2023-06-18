@@ -22,6 +22,14 @@ Biased Classifier False Positive income prediction on Male subgroup: 0.0840 | Bi
 
 Biased Classifier False Negative income prediction on Male subgroup: 0.4647 | Biased Classifier False Negative income prediction on Female subgroup: 0.5443 
 
+Biased Male Subgroup Confusion Matrix
+
+<img width="538" alt="Screenshot 2023-06-18 at 9 24 30 AM" src="https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/23b4a06c-0f1e-4df4-b91a-87890b8eaeec">
+
+Biased Female Subgroup Confusion Matrix
+
+<img width="539" alt="Screenshot 2023-06-18 at 9 24 45 AM" src="https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/3345b8a6-ff04-469d-b45f-1790693a95b2">
+
 #### Debiased Classifer Results
 
 Accuracy of the Unbiased model based on the test set of 9768 x_test is: 84 %
@@ -33,6 +41,14 @@ Debiased Adversary incorrectly predicting Male:  0 % | Debiased Adversary incorr
 Debiased Classifier False Positive income prediction on Male subgroup: 0.0980 | Debiased Classifier False Positive income prediction on Female subgroup: 0.0743 
 
 Debiased Classifier False Negative income prediction on Male subgroup: 0.3811 | Debiased Classifier False Negative income prediction on Female subgroup: 0.3386
+
+Debiased Male Subgroup Confusion Matrix
+
+<img width="539" alt="Screenshot 2023-06-18 at 9 26 01 AM" src="https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/4cef5db2-53e3-4d5f-b787-a86340bcf7aa">
+
+Debiased Female Subgroup Confusion Matrix
+
+<img width="539" alt="Screenshot 2023-06-18 at 9 26 18 AM" src="https://github.com/raniau1353/Adversarial_Learning_Classifier/assets/116512493/bc792ef8-6349-4f60-b373-e87faa2bf91b">
 
 ### References:
 
